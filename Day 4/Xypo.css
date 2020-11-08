@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.img{
+    margin-top: 30px;
+    width: 100px;
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.purpose{
+    width: 350px;
+    margin-top: 140px;
+}
+.ra{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: #f67c92;
+}
+.readmorebutton{
+    margin-top: 20px;
+    padding: 18px 40px;
+    border: 2px solid #f67c92;
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+.liness{
+    line-height: 8px;
+    margin-top: 60px;
+}
+.l1{
+    display: inline-block;
+    height: 2px;
+    width: 80px;
+    background: #f67c92;
+}
+.l2{
+    display: inline-block;
+    height: 1px;
+    width: 60px;
+    background: #f67c92;
+}
+.index{
+    height: 100vh;
+    background-image: url(https://i.ibb.co/jkMgq41/background.png);
+    background-position: center;
+    background-size: cover;
+}
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #777777;
+}
+.leftcontainer2{
+    flex-basis: 50%;
+}
+.leftcontainer2 img{
+    width: 100%;
+}
+div{
+    display: block;
+}
+.container2{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rightcontainer2{
+    text-align: right;
+    flex-basis: 50%;
+}
+.text{
+    max-width: 500px;
+    margin-right: 90px;
+    display: inline-block;
+}
+.lines{
+    line-height: 8px;
+}
