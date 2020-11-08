@@ -176,3 +176,128 @@ div{
 .rightcontainer4 img{
     width: 100%;
 }
+.container5{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.leftcontainer5{
+    flex-basis: 50%;
+}
+.leftcontainer5 img{
+    width: 100%;
+}
+.rightcontainer5{
+    flex-basis: 50%;
+    text-align: right;
+}
+.textright{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.insidecontainer6{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.leftcontainer6{
+    flex-basis: 50%;
+}
+form{
+    margin: 30px 0;
+    max-width: 350px;
+}
+form input{
+    padding: 12px 10px;
+    width: 100%;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #fab3cf;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box button{
+    flex-basis: 48%;
+    padding: 18px 0;
+}
+.rightcontainer6{
+    flex-basis: 50%;
+}
+.rightcontainer6 img{
+    width: 100%;
+}
+.footer{
+    padding: 50px 0 30px;
+}
+.insidefooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #f67c92;
+}
+.leftfooter{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.linhtinh{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.linhtinhitems h4{
+    color: #fab3c4;
+    margin-bottom: 20px;
+}
+.rightfooter{
+    flex-basis: 35%
+}
+.footerinf{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.footertext{
+    flex-basis: 40%;
+}
+.footerlogo{
+    flex-basis: 40%;
+}
+.footerlogo img{
+    width: 100px;
+}
+.footerlogo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.social{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.social img{
+    width: 20px;
+    display: block;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
