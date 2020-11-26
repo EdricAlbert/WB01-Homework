@@ -77,10 +77,10 @@ img{
     align-items: center;
     flex-wrap: wrap;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 100px; 
 }
 hr{
-    width: 100%;
+    width: 100%;    
     border: 0;
     border-bottom: 1px solid black;
 }
