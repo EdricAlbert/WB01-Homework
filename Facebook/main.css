@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F0F2F5;
+}
+
+.main-wrapper{
+    height: 100vh;
+}
+
+.facebook-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.facebook-login__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook--text img{
+    width: 300px;
+}
+
+.facebook--text p{
+    font-size: 28px;
+    max-width: 500px;
+}
+
+.facebook--form form{
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    padding: 30px;
+    border-radius: 5px;
+    min-width: 400px;
+}
+
+.facebook--form form *{
+    display: block;
+    margin: 15px 0;
+}
+
+.facebook--form input{
+    display: block;
+    margin: 15px 0;
+    border: 1px solid #dedede;
+    font-size: 16px;
+
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.facebook--form input:focus{
+    outline: none;
+    border: 1px solid #3b5999;
+}
+
+.facebook--form .form-group{
+    text-align: center;
+}
+
+.facebook--form .btn-login,
+.facebook--form .btn-register{
+    color: #fff;
+    background-color: #1877F2;
+    border: none;
+    border-radius: 5px;
+
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+    width: 100%;
+}
+
+.facebook--form .btn-register{
+    background-color: #42B72A;
+    font-size: 16px;
+}
