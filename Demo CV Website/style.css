@@ -35,8 +35,12 @@
 .navbar.sticky{
     padding: 15px 0;
     background: crimson;
+
 }
 .navbar.sticky .menu li a:hover{
+    color: aqua;
+}
+.navbar.sticky .logo a:hover{
     color: aqua;
 }
 .navbar .menu li{
@@ -89,8 +93,16 @@
 section{
     padding: 100px 0;
 }
-.ve{
+.ve, .linhvuc, .skills{
     font-family: 'Poppins', sans-serif;
+}
+section .title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu',sans-serif;
 }
 .ve .title{
     text-align: center;
@@ -106,7 +118,7 @@ section{
     object-fit: cover;
     border-radius: 6px;
 }
-.ve .ve-content{
+.ve .ve-content, .linhvuc .linhvu-content, .skills .skills-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center ;
@@ -144,3 +156,70 @@ section{
     color: crimson;
     background: none;
 }
+.linhvuc{
+    color: #fff;
+    background: #111;
+}
+.linhvuc .linhvu-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.linhvuc .linhvu-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.linhvuc .linhvu-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    transition: all 0.3s ease;
+}
+.linhvuc .linhvu-content .card .box{
+    transition: all 0.3s ease;
+}
+.linhvuc .linhvu-content .card:hover .box{
+    transform: scale(1.05);
+}
+.linhvuc .linhvu-content .card:hover{
+    background: crimson;
+}
+.linhvuc .linhvu-content .card:hover i{
+    color: #fff;
+}
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+
+}
+.skills .skills-content .right .information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
