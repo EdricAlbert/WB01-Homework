@@ -30,18 +30,18 @@
     transition: color 0.3s ease;
 }
 .navbar .logo a:hover{
-    color: crimson;
+    color: yellow;
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: yellow;
 
 }
 .navbar.sticky .menu li a:hover{
-    color: aqua;
+    color: black;
 }
 .navbar.sticky .logo a:hover{
-    color: aqua;
+    color: black;
 }
 .navbar .menu li{
     list-style: none;
@@ -55,7 +55,7 @@
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: yellow;
 }
 .menu-btn{
     color: #fff;
@@ -87,7 +87,7 @@
     margin: 5px 0;
 }
 .trangchu .trangchu-content .text-3 span{
-    color: crimson;
+    color: yellow;
     font-weight: 500;
 }
 section{
@@ -135,25 +135,25 @@ section .title{
     font-weight: 600;
     margin-bottom: 16px;
 }.ve .ve-content .right .text span{
-    color: crimson;
+    color: yellow;
 }
 .ve .ve-content .right p{
     text-align: justify;
 }
 .ve .ve-content .right a{
     display: inline-block;
-    background: crimson;
-    color: #fff;
+    background: yellow;
+    color: #333;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid yellow;
     transition: all 0.3s ease;
 }
 .ve .ve-content .right a:hover{
-    color: crimson;
+    color: yellow;
     background: none;
 }
 .linhvuc, .teams{
@@ -170,7 +170,7 @@ section .title{
 }
 .linhvuc .linhvu-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: yellow;
     transition: color 0.3s ease;
 }
 .linhvuc .linhvu-content .card .text{
@@ -186,10 +186,16 @@ section .title{
     transform: scale(1.05);
 }
 .linhvuc .linhvu-content .card:hover{
-    background: crimson;
+    background: yellow;
 }
 .linhvuc .linhvu-content .card:hover i{
-    color: #fff;
+    color: #333;
+}
+.linhvuc .linhvu-content .card:hover p{
+    color: #333;
+}
+.linhvuc .linhvu-content .card:hover .text{
+    color: #333;
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -225,7 +231,7 @@ section .title{
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: yellow;
 }
 .skills .skills-content .right .html::before{
     width: 75%;
@@ -247,18 +253,18 @@ section .title{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
-    color: #fff;
+    background: yellow;
+    color: #333;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid yellow;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: crimson;
+    color: yellow;
     background: none;
 }
 .teams .carousel .card{
@@ -286,14 +292,20 @@ section .title{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid yellow;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: crimson;
+    background: yellow;
 }
 .teams .carousel .card:hover img{
     border-color: #fff;
+}
+.teams .carousel .card:hover .text{
+    color: #333;
+}
+.teams .carousel .card:hover p{
+    color: #333;
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
@@ -308,7 +320,7 @@ section .title{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid yellow!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -316,7 +328,7 @@ section .title{
     border-radius: 14px;
 }
 .owl-dot.active, .owl-dot:hover{
-    background: crimson!important;
+    background: yellow!important;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
