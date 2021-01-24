@@ -93,7 +93,7 @@
 section{
     padding: 100px 0;
 }
-.ve, .linhvuc, .skills, .teams{
+.ve, .linhvuc, .skills, .teams, .contact{
     font-family: 'Poppins', sans-serif;
 }
 section .title{
@@ -118,7 +118,7 @@ section .title{
     object-fit: cover;
     border-radius: 6px;
 }
-.ve .ve-content, .linhvuc .linhvu-content, .skills .skills-content{
+.ve .ve-content, .linhvuc .linhvu-content, .skills .skills-content, .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center ;
@@ -297,4 +297,55 @@ section .title{
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active, .owl-dot:hover{
+    background: crimson!important;
+}
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .contact-content .left{
+    text-align: justify;
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .information{
+    margin-left: 30px;
+
+}
+.contact .contact-content .information i{
+    font-size: 25px;
+    color: crimson;
 }
