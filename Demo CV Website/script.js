@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(window).scroll(function(){
+    $(window).scroll(function(){    
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
         }else{
@@ -17,7 +17,7 @@ $(document).ready(function(){
                 nav: false
             },
             600:{
-                items: 2,
+                items: 2,S,
                 nav: false
             },
             1000:{
