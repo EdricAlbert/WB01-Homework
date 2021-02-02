@@ -93,7 +93,7 @@
 section{
     padding: 100px 0;
 }
-.ve, .linhvuc, .skills, .teams, .contact{
+.ve, .linhvuc, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 section .title{
@@ -419,4 +419,19 @@ section .title{
     color: yellow;
     background: none;
 
+}
+footer{
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+}
+footer span a{
+    color: yellow;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
 }
