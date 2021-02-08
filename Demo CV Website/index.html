@@ -234,20 +234,19 @@
         <span>Created By <a href="#">Phạm Hồ Hữu Trí</a> | <span class="far fa-copyright"> 2020 All rights  reserved.</span>
     </footer>
     <div id="id01" class="modal">
-        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-        <form class="modal-content animate" action="/action_page.php">
+        <form class="modal-content animate" id="form-signup" action="/action_page.php">
           <div class="container">
             <h1 style="font-family: Poppins, sans-serif;">Sign Up</h1>
             <p style="padding-left: 20px;padding-top: 10px;padding-bottom: 10px;">Please fill in this form to create an account.</p>
             <hr>
             <label for="email" style="font-family: Poppins, sans-serif;"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required>
+            <input type="text" placeholder="Enter Email" name="email" required id="email">
       
             <label for="psw"style="font-family: Poppins, sans-serif;"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <input type="password" placeholder="Enter Password" name="psw" required id="psw">
       
             <label for="psw-repeat" style="font-family: Poppins, sans-serif;"><b>Repeat Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required id="psw1">
             
             <label>
               <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" style="font-family: Poppins, sans-serif;"> Remember me
@@ -257,13 +256,13 @@
       
             <div class="clearfix">
               <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-              <button type="submit" class="signupbtn">Sign Up</button>
+              <button type="submit" class="signupbtn" id="signupbtn">Sign Up</button>
             </div>
           </div>
         </form>
       </div>
       <div id="id02" class="modal1">
-        <form class="modal1-content animate" action="/action_page.php" method="post">
+        <form class="modal1-content animate" id="form-login"action="/action_page.php" method="post">
           <div class="imgcontainer">
             <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
             <img src="/images/profile1.png" alt="Avatar" class="avatar">
@@ -271,12 +270,12 @@
       
           <div class="container">
             <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <input type="text" placeholder="Enter Username" name="uname" id="username" required>
       
             <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <input type="password" placeholder="Enter Password" name="psw" id="pswlogin" required>
               
-            <button type="submit">Login</button>
+            <button type="submit" id="login1">Login</button>
             <label>
               <input type="checkbox" checked="checked" name="remember"> Remember me
             </label>
