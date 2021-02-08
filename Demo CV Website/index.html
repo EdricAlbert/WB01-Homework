@@ -22,7 +22,8 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#teams">Teams</a></li>
                 <li><a href="#contact">Contact</a></li><alert> </alert>
-                <li><a href="signup.html">Sign Up & Sign In</a></li>
+                <li><a href="#"class="signup" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</a></li>
+                <li><a href="#" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign In</a></li>
             </ul>
         </div>
     </nav>
@@ -222,7 +223,7 @@
                                 <textarea cols="30" rows="10" placeholder="Describe project..." required></textarea>
                             </div>
                             <div class="button">
-                                <button type="submit">Send message</button>
+                                <button class="sss" type="submit">Send message</button>
                             </div>
                     </form>
                 </div>
@@ -232,6 +233,61 @@
     <footer>
         <span>Created By <a href="#">Phạm Hồ Hữu Trí</a> | <span class="far fa-copyright"> 2020 All rights  reserved.</span>
     </footer>
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content animate" action="/action_page.php">
+          <div class="container">
+            <h1 style="font-family: Poppins, sans-serif;">Sign Up</h1>
+            <p style="padding-left: 20px;padding-top: 10px;padding-bottom: 10px;">Please fill in this form to create an account.</p>
+            <hr>
+            <label for="email" style="font-family: Poppins, sans-serif;"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+      
+            <label for="psw"style="font-family: Poppins, sans-serif;"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+      
+            <label for="psw-repeat" style="font-family: Poppins, sans-serif;"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" style="font-family: Poppins, sans-serif;"> Remember me
+            </label>
+      
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+            <div class="clearfix">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div id="id02" class="modal1">
+        <form class="modal1-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="/images/profile1.png" alt="Avatar" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn1">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
     <script src="script.js"></script>
 </body>
-</html>
+</html>     
