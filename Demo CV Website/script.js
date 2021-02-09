@@ -60,7 +60,6 @@ elm_signupform.addEventListener('submit', function(event){
         arr_username.push(emailsignup);
         arr_password.push(pswsignup);
         alert('Đăng ký thành công');
-        location.replace('index.html');
     }
     else{
     alert('Hai mật khẩu không giống nhau!')
