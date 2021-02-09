@@ -43,7 +43,7 @@ window.onclick = function(event) {
 let elm_signup = document.getElementById('signupbtn');
 let elm_signupform = document.getElementById('form-signup');
 
-let arr_username = [];
+let arr_username = [    ];
 let arr_password = [];
 
 let elm_emailsignup = document.getElementById('email');
@@ -54,15 +54,16 @@ elm_signupform.addEventListener('submit', function(event){
     event.preventDefault();
 
     let emailsignup = elm_emailsignup.value;
-    arr_username.push(emailsignup);
     let pswsignup = elm_pswsignup.value;
     let psw1signup = elm_psws1signup.value;
     if ( (psw1signup) == (pswsignup) )   {
+        arr_username.push(emailsignup);
         arr_password.push(pswsignup);
         alert('Đăng ký thành công');
+        location.replace('index.html');
     }
     else{
-    alert('Trong phần repeat password bị sai, xin bạn check lại!')
+    alert('Hai mật khẩu không giống nhau!')
     }
 })
 let elm_login = document.getElementById('login1');
