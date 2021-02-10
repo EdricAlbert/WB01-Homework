@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 <body>
     <nav class="navbar">
@@ -31,7 +32,7 @@
         <div class="max-width">
             <div class="trangchu-content">
                 <div class="text-1">Xin chào, tên tôi là</div>
-                <div class="text-2">Hữu Trí</div>
+                <div class="text-2 username">Unknown Name</div>
                 <div class="text-3">Và tôi là <span>Front-End Designer</span></div>
             </div>
         </div>
@@ -44,7 +45,7 @@
                     <img src="https://i.ibb.co/4d1LDh8/142789084-130738318883448-1174751351543708779-n.jpg" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Hữu Trí and I'm a <span>Front-End Designer</span></div>
+                    <div class="text">I'm <span class="username">Unknown Name</span> and I'm a <span>Front-End Designer</span></div>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, odio numquam! Tempore ab cumque natus similique quod molestias, ad officia, deleniti dignissimos labore iste error sequi nostrum pariatur consequuntur laudantium maiores earum possimus corporis laborum illo? Veniam qui id harum rem consequatur ab ullam officia, voluptatem, reiciendis quasi similique voluptates molestiae odio facilis ipsam quibusdam accusantium est quas. Distinctio, perspiciatis.</p>
                     <a href="#">Download CV</a>
                 </div>
@@ -234,13 +235,14 @@
         <span>Created By <a href="#">Phạm Hồ Hữu Trí</a> | <span class="far fa-copyright"> 2020 All rights  reserved.</span>
     </footer>
     <div id="id01" class="modal">
-        <form class="modal-content animate" id="form-signup" action="/action_page.php">
+        <form class="modal-content animate" id="form-signup">
           <div class="container">
+            <i class="fa fa-times" aria-hidden="true" style="float: right; font-size: 23px; color: #f1f1f1;" id="click" ></i>
             <h1 style="font-family: Poppins, sans-serif;">Sign Up</h1>
             <p style="padding-left: 20px;padding-top: 10px;padding-bottom: 10px;">Please fill in this form to create an account.</p>
             <hr>
             <label for="email" style="font-family: Poppins, sans-serif;"><b>Username</b></label>
-            <input type="text" placeholder="Enter username" name="email" required id="email">
+            <input type="text" placeholder="Enter Username" name="email" required id="email">
       
             <label for="psw"style="font-family: Poppins, sans-serif;"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required id="psw">
@@ -251,7 +253,7 @@
             <label>
               <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" style="font-family: Poppins, sans-serif;"> Remember me
             </label>
-      
+            <p id="confirm-signup" style="padding-left: 15px; color: red; padding-bottom: 10px;"></p>
             <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
       
             <div class="clearfix">
@@ -262,7 +264,7 @@
         </form>
       </div>
       <div id="id02" class="modal1">
-        <form class="modal1-content animate" id="form-login"action="/action_page.php" method="post">
+        <form class="modal1-content animate" id="form-login" method="post">
           <div class="imgcontainer">
             <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
             <img src="https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png" alt="Avatar" class="avatar">
@@ -280,13 +282,15 @@
               <input type="checkbox" checked="checked" name="remember"> Remember me
             </label>
           </div>
-      
+          <p id="confirm" style="padding-left: 15px; color: red; padding-bottom: 10px;"><bold></bold></p>
           <div class="container" style="background-color:#f1f1f1">
             <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn1">Cancel</button>
             <span class="psw">Forgot <a href="#">password?</a></span>
           </div>
         </form>
       </div>
-    <script src="script.js"></script>
+
+    <script src="js/helpers.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>     
