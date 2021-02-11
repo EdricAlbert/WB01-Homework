@@ -26,7 +26,7 @@
 .navbar .logo a{
     font-size: 35px;
     font-weight: 600;
-    color: white;
+    color: greenyellow;
     transition: color 0.3s ease;
 }
 .navbar .logo a:hover{
@@ -53,7 +53,7 @@
     display: inline-block;
 }
 .navbar .menu li a{
-    color: white;
+    color: greenyellow;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -70,7 +70,7 @@
 }
 .trangchu{
     display: flex;
-    background: url("images/banner1.png") no-repeat center;
+    background: url(https://free4kwallpapers.com/uploads/wallpaper/beautiful-beach-maldives-wallpaper-1536x864-wallpaper.jpg) no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -80,7 +80,8 @@
     margin: auto 0 auto 40px;
 }
 .trangchu .trangchu-content .text-1{
-    font-size: 27px;
+    font-size: 40px;
+    color: Cyan;
 }
 .trangchu .trangchu-content .text-2{
     font-size: 75px;
@@ -90,9 +91,10 @@
 .trangchu .trangchu-content .text-3{
     font-size: 40px;
     margin: 5px 0;
+    color: cyan;
 }
 .trangchu .trangchu-content .text-3 span{
-    color: yellow;
+    color: rgb(153, 255, 0);
     font-weight: 500;
 }
 section{
