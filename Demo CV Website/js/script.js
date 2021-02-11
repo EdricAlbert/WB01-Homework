@@ -118,6 +118,8 @@ elm_form.addEventListener('submit', function(event){
 
             if(elm_password.value ===  lstAccount[i].pswsignup){
                 flag = 2;
+                modal1.click();
+            updateUsername(username);
             }
             break;
         }
