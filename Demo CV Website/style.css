@@ -24,9 +24,9 @@
     justify-content: space-between;
 }
 .navbar .logo a{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
-    color: greenyellow;
+    color: white;
     transition: color 0.3s ease;
 }
 .navbar .logo a:hover{
@@ -53,7 +53,7 @@
     display: inline-block;
 }
 .navbar .menu li a{
-    color: greenyellow;
+    color: white;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -70,7 +70,7 @@
 }
 .trangchu{
     display: flex;
-    background: url(https://free4kwallpapers.com/uploads/wallpaper/beautiful-beach-maldives-wallpaper-1536x864-wallpaper.jpg) no-repeat center;
+    background: url(images/banner1.png) no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
